@@ -197,7 +197,7 @@ h6 {
 }
 
 /* Responsive Styles for 768px width */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 700px) and (max-width: 768px) {
   .banner {
     padding: 40px 20px 0;
   }
@@ -281,7 +281,7 @@ h6 {
   }
 }
 
-@media (max-width: 1024px) {
+@media  (max-width: 1024px) {
   .logo-image img {
     margin: 15px 8px;
     width: 146px;
@@ -289,7 +289,7 @@ h6 {
 }
 
 /* Responsive Styles for 425px to 320px width */
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 624px) {
   .banner {
     padding: 20px 10px 0;
   }
@@ -314,12 +314,12 @@ h6 {
   }
   .box-row {
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     padding-top: 20px;
   }
 
   .box {
-    width: 100%;
+    width: 50 %;
     margin: 10px 0;
   }
   .circle img {
@@ -381,17 +381,23 @@ h6 {
   }
   .right-side h2 {
     font-size: 24px;
+  }
+  .right-side p {
+    font-size: 13px;
+  }
+  .right-side button {
+    font-size: 12px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
-.right-side p {
-  font-size: 13px;
-}
-.right-side button {
-  font-size: 12px;
-  padding: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.fourth-section img{
-  
-}
+
+/* responsive for 769 to 1023 devices */
+@media  (min-width:769px) and (max-width:1023px){
+  .box {
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+
 }
