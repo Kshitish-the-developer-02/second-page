@@ -289,7 +289,7 @@ h6 {
 }
 
 /* Responsive Styles for 425px to 320px width */
-@media only screen and (max-width: 624px) {
+@media only screen and (max-width: 500px) {
   .banner {
     padding: 20px 10px 0;
   }
@@ -319,7 +319,7 @@ h6 {
   }
 
   .box {
-    width: 50%;
+    width: 86%;
     margin: 10px 0;
   }
   .circle img {
