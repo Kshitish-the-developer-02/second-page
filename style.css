@@ -197,7 +197,7 @@ h6 {
 }
 
 /* Responsive Styles for 768px width */
-@media only screen and (min-width: 700px) and (max-width: 768px) {
+@media only screen and (min-width: 700px) and (max-width: 930px) {
   .banner {
     padding: 40px 20px 0;
   }
@@ -281,7 +281,7 @@ h6 {
   }
 }
 
-@media  (max-width: 1024px) {
+@media (max-width: 1024px) {
   .logo-image img {
     margin: 15px 8px;
     width: 146px;
@@ -393,11 +393,188 @@ h6 {
   }
 }
 
-/* responsive for 769 to 1023 devices */
-@media  (min-width:769px) and (max-width:1023px){
+@media (min-width: 600px) and (max-width: 699px) {
+  .banner {
+    width: 100%;
+    padding: 10px;
+  }
+  .banner h1 {
+    font-size: 34px;
+  }
+  .banner h3 {
+    font-size: 18px;
+  }
+  .banner p {
+    font-size: 13px;
+  }
+  .banner button {
+    font-size: 11px;
+  }
+  .box-row {
+    width: 100%;
+  }
+  .box-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .box {
-    width: calc(50% - 20px);
+    width: 45%;
     margin: 10px;
+    /* text-align: center; */
+  }
+  .carousel-between {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .carousel-between h3 {
+    width: 100%;
+    max-width: 45%;
+  }
+  .heading-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading-part h1 {
+    font-size: 29px;
+  }
+  .heading-part p {
+    font-size: 15px;
+  }
+ .grid-div-root {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-side {
+    max-width: 98%;
+    padding: 10px;
+    text-align: center;
+  }
+  .left-side img {
+    width: 220px;
+    height: 221px;
+  }
+  .left-side h3 {
+    font-size: 13px;
+    text-align: left;
+  }
+  .right-side {
+    max-width: 100%;
+  }
+  .right-side h2 {
+    font-size: 24px;
+  }
+  .right-side p {
+    font-size: 13px;
+  }
+  .right-side button {
+    font-size: 12px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width:501px) and (max-width:599px){
+  .banner {
+    padding: 20px 10px 0;
   }
 
+  .banner h1 {
+    font-size: 24px;
+  }
+
+  .banner h3 {
+    font-size: 17px;
+    margin: 15px 0 0;
+  }
+
+  .banner p {
+    font-size: 12px;
+    margin: 8px 0 0;
+  }
+
+  .banner button {
+    margin: 15px 0 0;
+    padding: 12px 25px;
+  }
+  .box-row {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .box {
+    width: 58%;
+    margin: 10px 0;
+  }
+  .circle img {
+    width: 35px;
+    height: 35px;
+  }
+  .carousel-section {
+    padding: 10px 0 10px 5px;
+  }
+
+  .carousel-section h3 {
+    text-align: center;
+    max-width: unset;
+    margin-right: unset;
+  }
+
+  .carousel-between {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 0 0;
+  }
+
+  .logo-image img {
+    margin: 10px 22px;
+    width: 110px;
+  }
+
+  .heading-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading-part h1 {
+    line-height: 1.15;
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+  .heading-part p {
+    font-size: 13px;
+  }
+  .grid-div-root {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-side {
+    max-width: 98%;
+    padding: 10px;
+    text-align: center;
+  }
+  .left-side img {
+    width: 220px;
+    height: 221px;
+  }
+  .left-side h3 {
+    font-size: 13px;
+    text-align: left;
+  }
+  .right-side {
+    max-width: 100%;
+  }
+  .right-side h2 {
+    font-size: 24px;
+  }
+  .right-side p {
+    font-size: 13px;
+  }
+  .right-side button {
+    font-size: 12px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
