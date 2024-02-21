@@ -23,6 +23,10 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/c1cb4e8ab3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>naxtre(2nd-page)</title>
   </head>
@@ -170,7 +174,149 @@
 
     <!-- fourth section -->
     <div class="fourth-section">
-      <img src="/image//image 9.png" alt="">
+      <img src="/image//image 9.png" alt="" />
     </div>
+
+    <!-- fifth-section -->
+    <div class="fifth-section">
+      <h1>Detailing of our products</h1>
+      <div class="tab-section">
+        <button class="active" onclick="toggleButton(this)">Development</button>
+        <button onclick="toggleButton(this)">Woo Commerce</button>
+        <button onclick="toggleButton(this)">CRM Solutions</button>
+        <button onclick="toggleButton(this)">Web Designing</button>
+      </div>
+
+      <div class="content-section">
+        <div class="left-content">
+          <div class="left">
+            <button>Web Development</button>
+            <img
+              src="/image/laptop-image.png"
+              alt="laptop-image"
+              width="279px"
+              height="232px"
+            />
+          </div>
+          <div class="right">
+            <button>Mobile Development</button>
+            <img
+              src="/image/mobile-imge.png"
+              alt="mobile-imge"
+              width="163px"
+              height="241px"
+            />
+          </div>
+        </div>
+        <div class="right-content">
+          <div>
+            <img src="/image/logo-image.png" alt="logo-image" />
+          </div>
+          <div class="xyz">
+            <h3>Development</h3>
+            <p>
+              Software development is a dynamic And rapidly evolving field that
+              plays a pivotal role in shaping the digital landscape we live in
+              today.It encompasses the processes, methodologies,and maintain
+              software application and systems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function toggleButton(btn) {
+        // Remove 'active' class from all buttons
+        var buttons = document.querySelectorAll(".tab-section button");
+        buttons.forEach(function (button) {
+          button.classList.remove("active");
+        });
+
+        // Add 'active' class to clicked button
+        btn.classList.add("active");
+      }
+    </script>
+
+    <!-- sixth-section -->
+    <div class="sixth-section-root">
+      <div class="main-content">
+        <div class="left-content-part">
+          <div class="top-corner">
+            <img src="/image/underline-image.png" alt="underline-image" />
+            <h6>SAASON BENEFIT</h6>
+          </div>
+          <h1>Use LiveChat with website visitors</h1>
+        </div>
+        <div class="right-content-part">
+          <p>
+            Saas websites are platform's deiver software application over have
+            solutions,such as project managemnt tool's software,cloud storage on
+            more,accessible through a web browser.
+          </p>
+          <p>
+            Solutions, such as project managemnt tool's sofware,cloud storage on
+            more,accessible through.
+          </p>
+          <button>Contact Us</button>
+          <div class="bottom-section">
+            <div class="div-1">
+              <h3>Greet your visitors on arrival</h3>
+              <p>
+                Internet on a subscription basis.these websites various have on
+                software solutions,such as project managemnt tools software
+                storage on through a web browser
+              </p>
+            </div>
+            <div class="div-2">
+              <h3>Conversational Support</h3>
+              <p>
+                Internet on a subscription basis.these websites various have on
+                software solutions,such as project managemnt tools software
+                storage on through a web browser
+              </p>
+            </div>
+            <div class="div-3">
+              <h3>Connect to right people</h3>
+              <p>
+                Internet on a subscription basis.these websites various have on
+                software solutions,such as project managemnt tools software
+                storage on through a web browser
+              </p>
+            
+                <!-- <i class="fa-solid fa-arrow-right"></i> -->
+              </button>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- seventh section -->
+    <div class="seven-section-root">
+      <div class="seven-section-container">
+        <h1>Industry Recognitions and Awards</h1>
+       <div class="main-image-container">
+        <div class="image-container">
+          <img src="/image/seven-section-image.png" alt="seven-section-image">
+           <h3>Top App Development comapnies</h3>
+        </div>
+        <div class="image-container">
+          <img src="/image/seven-section-image.png" alt="seven-section-image">
+           <h3>Top App Development comapnies</h3>
+        </div><div class="image-container">
+          <img src="/image/seven-section-image.png" alt="seven-section-image">
+           <h3>Top App Development comapnies</h3>
+        </div>
+       </div>
+      </div>
+    </div>
+
+    <!-- eight-section -->
+    <!-- <div class="eight-section-root">
+      <div class="eight-section-content-continer">
+        <button>Lets's Tell You How</button>
+        <h1>Give Your Cookie-Cutter Software The Makeover It Needs</h1>
+      </div>
+    </div> -->
   </body>
 </html>
