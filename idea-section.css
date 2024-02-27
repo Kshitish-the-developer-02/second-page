@@ -1,7 +1,7 @@
 .idea-section-root {
-  max-width: 1040px;
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 30px 10px 30px 10px;
+  padding: 30px 10px 30px 15px;
 }
 .idea-section-content {
   padding: 15px;
@@ -10,7 +10,7 @@
 .idea-section-top-part h1 {
   font-family: "Poppins", sans-serif;
   font-size: 41px;
-  max-width: 75%;
+  max-width: 71%;
   margin-bottom: 40px;
   line-height: 1.25;
 }
@@ -70,7 +70,7 @@
 .idea-right-part p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  max-width: 98%;
+  max-width: 91%;
   margin-bottom: 20px;
 }
 .idea-right-part h3 {
