@@ -33,6 +33,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="idea-section.css" />
+    <!-- <link rel="stylesheet" href="ui-ux.css" /> -->
     <title>naxtre(2nd-page)</title>
   </head>
   <body>
@@ -424,6 +425,7 @@
           </p>
         </div>
         <div class="stack-bottom-content">
+          <button>Frontend</button>
           <button>Backend</button>
           <button>Mobile</button>
           <button>Database</button>
@@ -690,7 +692,12 @@
     <div class="black-template-root">
       <div class="black-template-content">
         <div class="black-left-part">
-          <img src="/image//black-image.png" alt="" />
+          <img
+            src="/image/black-template-image.png"
+            alt=""
+            width="420px"
+            height="305px"
+          />
         </div>
         <div class="black-right-part">
           <h5>FEATURED PRODUCT</h5>
@@ -782,9 +789,9 @@
         <div class="sec-18-bottom-part">
           <div class="sec-18-bottom-part-div-1">
             <h2>What is AirSolutions?</h2>
-            <i class="ri-arrow-up-s-line"></i>
+            <i id="arrow-icon" class="ri-arrow-up-s-line"></i>
           </div>
-          <p>
+          <p id="paragraph-content">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit
             soluta tenetur nemo ipsum Ex recusandae corporis quas, veniam
             impedit voluptas necessitatibus officiis porro animi ullam nihil eum
@@ -809,6 +816,24 @@
         </div>
       </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const arrowIcon = document.getElementById("arrow-icon");
+        const paragraphContent = document.getElementById("paragraph-content");
+
+        arrowIcon.addEventListener("click", function () {
+          if (arrowIcon.classList.contains("ri-arrow-up-s-line")) {
+            arrowIcon.classList.remove("ri-arrow-up-s-line");
+            arrowIcon.classList.add("ri-arrow-down-s-line");
+            paragraphContent.style.display = "none"; // Hide the paragraph content
+          } else {
+            arrowIcon.classList.remove("ri-arrow-down-s-line");
+            arrowIcon.classList.add("ri-arrow-up-s-line");
+            paragraphContent.style.display = "block"; // Show the paragraph content
+          }
+        });
+      });
+    </script>
 
     <!-- section-19 -->
     <div class="sec-8-main-container">
@@ -834,6 +859,53 @@
             height="219px"
             style="opacity: 0.2"
           />
+        </div>
+      </div>
+    </div>
+
+    <!-- UI/UX FAQ section -->
+    <div class="ui-ux-faq-sec-root">
+      <div class="ui-ux-faq-content">
+        <div class="ui-ux-heading-part">
+          <h1>What is UI/UX Design</h1>
+          <p>
+            UI/UX design stands for User Interface/User Experience design. It
+            involves creating visually appealing and user-friendly interfaces
+            for digital products. Ut design focuses on the product's look and
+            feel, including colors, typography, and layouts. Local styles Export
+            BEC 17 SEC 19 SEC 12 SEC B SEC B SEC 7 SEC 5 UX design enhances the
+            overall user experience, considering factors like usability,
+            accessibility, and interaction design. Ul and UX design work
+            together to create intuitive and enjoyable experiences for users.
+          </p>
+        </div>
+        <div class="ui-ux-bottom-part">
+          <div class="ui-ux-bottom-top">
+            <h3>UX AUDITS <i class="ri-arrow-up-circle-fill"></i></h3>
+            <p>
+              A UX audit is a service that evaluates the user experience (UX) of
+              a website. It involves analyzing the website's design,
+              functionality, and content to identify areas of improvement that
+              can enhance the user's overall experience. During a UX audit, a
+              team of UX experts will conduct a thorough review of the website
+              and provide a comprehensive report that outlines specific
+              recommendations for improving the website's usability,
+              accessibility, and overall user experience. The audit may cover
+              various aspects of the website, such as navigation, layout, visual
+              design, content structure, and mobile responsiveness. The goal is
+              to identify any pain points or obstacles that users may encounter
+              while browsing the website and provide actionable recommendations
+              to improve their experience. In summary, a UX audit can help
+              website owners identify areas of improvement that can enhance
+              their website's user experience and increase user engagement and
+              satisfaction
+            </p>
+          </div>
+          <div class="ui-ux-bottom-down">
+            <h3>DESIGN THINKING <i class="ri-arrow-up-circle-fill"></i></h3>
+            <h3>WIREFRAMING <i class="ri-arrow-up-circle-fill"></i></h3>
+            <h3>METHODOLOGIES <i class="ri-arrow-up-circle-fill"></i></h3>
+          </div>
         </div>
       </div>
     </div>
