@@ -5,8 +5,10 @@
 }
 
 /* banner section */
-.banner {
+.banner-root {
   background-image: url(/image//Texture\ 1.png);
+}
+.banner {
   max-width: 1300px;
   margin: 0 auto;
   padding: 30px 0 0 14px;
@@ -104,13 +106,15 @@ h6 {
 }
 
 /* .third-section */
+.third-section-root {
+  background-color: #fff4e7;
+}
 .third-section {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
   padding: 0;
-  padding: 30px 6px 0 14px;
-  background-color: #fff4e7;
+  padding: 30px 6px 30px 14px;
 }
 .heading-part {
   display: flex;
@@ -152,9 +156,25 @@ h6 {
   font-size: 18px;
   color: #086ad8;
 }
+.third-sec-image-box {
+  position: relative;
+  z-index: 1;
+  display: flex;
+}
 .left-side img {
   width: 400px;
   height: 401px;
+}
+.third-sec-box {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #086ad8;
+  bottom: 14px;
+  right: -1px;
+  left: 14px;
+  margin: -27px;
+  z-index: -1;
 }
 .right-side {
   max-width: 54%;
@@ -198,8 +218,10 @@ h6 {
   width: 100%;
 }
 /* .fifth-section */
-.fifth-section {
+.fifth-section-root {
   background-color: #f3f6fd;
+}
+.fifth-section {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
@@ -305,8 +327,10 @@ h6 {
   font-size: 20px;
 }
 /* sixth-section */
-.sixth-section-root {
+.sixth-content-head {
   background-color: #f4f4f4;
+}
+.sixth-section-root {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
@@ -673,11 +697,14 @@ h6 {
 }
 
 /* section-12 */
+.sec-12-main{
+  background-color: #fffbeb;
+
+}
 .section-12-root {
   max-width: 1300px;
   margin: 0 auto;
   padding: 30px 10px 30px 15px;
-  background-color: #fffbeb;
 }
 
 .section-12-top-part {
@@ -772,6 +799,7 @@ h6 {
 .black-template-root {
   width: 100%;
   background-color: rgb(29, 28, 28);
+  position: static;
 }
 .black-template-content {
   max-width: 1300px;
@@ -1037,6 +1065,7 @@ i {
   font-size: 26px;
   font-weight: 500;
 }
+
 /* ui-ux-faq-section */
 .ui-ux-faq-sec-root {
   max-width: 1300px;
@@ -1104,7 +1133,6 @@ i {
   .banner {
     padding: 40px 20px 0;
   }
-
   .banner h1 {
     font-size: 41px;
   }
@@ -1112,12 +1140,10 @@ i {
     font-size: 20px;
     margin: 20px 0 0;
   }
-
   .banner p {
     font-size: 15px;
     margin: 15px 0 0;
   }
-
   .banner button {
     margin: 25px 0 0;
     padding: 16px 30px;
@@ -1125,27 +1151,24 @@ i {
   .box-row {
     flex-wrap: wrap;
   }
-
   .box {
     width: calc(50% - 20px);
     margin: 10px;
   }
+  /* carousel-section */
   .carousel-section {
     padding: 20px 0 10px 5px;
   }
-
   .carousel-section h3 {
     max-width: unset;
     margin-right: unset;
     font-size: 20px;
   }
-
   .carousel-between {
     flex-direction: column;
     align-items: center;
     padding: 15px 0 0 0;
   }
-
   .logo-image img {
     margin: 15px 8px;
     width: 110px;
@@ -1163,7 +1186,9 @@ i {
     font-weight: 600;
     font-size: 12px;
   }
-  /* fourth-section */
+  .left-side {
+    max-width: 50%;
+  }
   .left-side img {
     width: 300px;
     height: 301px;
@@ -1210,7 +1235,6 @@ i {
   .right img {
     margin-left: 0;
   }
-
   .right-content h3 {
     font-size: 17px;
   }
@@ -1221,8 +1245,8 @@ i {
   .left-content-part h1 {
     font-size: 40px;
   }
-  /* .seven-section-root */
 
+  /* .seven-section-root */
   .seven-section-container h1 {
     max-width: 79%;
     font-size: 35px;
@@ -1236,6 +1260,7 @@ i {
   .image-container {
     max-width: 30%;
   }
+
   /* eight-section */
   .sec-8-div-1 {
     justify-content: flex-start;
@@ -1248,16 +1273,15 @@ i {
     justify-content: center;
     align-items: center;
   }
-
   .sec-8-div-2 img {
     height: 150px;
     width: 90px;
   }
-
   .sec-8-div-3 img {
     height: 150px;
     width: 90px;
   }
+
   /* crypto-section */
   .crypto-left-part h1 {
     font-size: 31px;
@@ -1266,6 +1290,7 @@ i {
   .crypto-right-part p {
     font-size: 13px;
   }
+
   /* .nine-section-content */
   .nine-section-left-part {
     max-width: 40%;
@@ -1313,7 +1338,6 @@ i {
     padding: 6px 37px 10px 0;
     max-width: 86%;
   }
-
   .column-div h4 {
     font-size: 14px;
     font-weight: 500;
@@ -1385,9 +1409,7 @@ i {
     font-size: 14px;
     margin-bottom: 25px;
   }
-  /* .sec-12-div {
 
-  } */
   /* black-template-sectin */
   .black-left-part img {
     margin-left: 0;
@@ -1449,6 +1471,7 @@ i {
     margin: 15px 8px;
     width: 146px;
   }
+
   /* .third-section */
   .left-side {
     max-width: 46%;
@@ -1477,6 +1500,7 @@ i {
   .bottom-div h3 {
     font-size: 16px;
   }
+
   /* nine-section */
   .nine-top-part {
     max-width: 90%;
@@ -1484,6 +1508,7 @@ i {
   .sec-16-left-side h1 {
     font-size: 36px;
   }
+
   /* section-17 */
   .sec-17-right-side h1 {
     max-width: 95%;
@@ -1498,6 +1523,7 @@ i {
   .sec-17-right-side h4 {
     font-size: 15px;
   }
+
   /* black-template */
   .black-right-part h1 {
     max-width: 75%;
@@ -1505,24 +1531,21 @@ i {
 }
 
 @media only screen and (max-width: 500px) {
+  /* banner-section */
   .banner {
     padding: 20px 15px 0 15px;
   }
-
   .banner h1 {
     font-size: 24px;
   }
-
   .banner h3 {
     font-size: 17px;
     margin: 15px 0 0;
   }
-
   .banner p {
     font-size: 12px;
     margin: 8px 0 0;
   }
-
   .banner button {
     margin: 15px 0 0;
     padding: 12px 25px;
@@ -1532,7 +1555,6 @@ i {
     align-items: center;
     padding-top: 20px;
   }
-
   .box {
     width: 86%;
     margin: 10px 0;
@@ -1541,27 +1563,27 @@ i {
     width: 35px;
     height: 35px;
   }
+
+  /* carousel-section */
   .carousel-section {
     padding: 10px 0 10px 5px;
   }
-
   .carousel-section h3 {
     text-align: center;
     max-width: unset;
     margin-right: unset;
   }
-
   .carousel-between {
     flex-direction: column;
     align-items: center;
     padding: 10px 0 0 0;
   }
-
   .logo-image img {
     margin: 10px 22px;
     width: 110px;
   }
 
+  /* third-section */
   .heading-part {
     display: flex;
     flex-direction: column;
@@ -1650,7 +1672,6 @@ i {
     margin: 0;
     align-items: center;
   }
-
   .left img,
   .right img {
     margin-left: 0;
@@ -1670,6 +1691,7 @@ i {
   .xyz {
     padding: 0 0 10px 99px;
   }
+
   /* .sixth-section-root */
   .main-content {
     display: flex;
@@ -1685,7 +1707,6 @@ i {
   .right-content-part {
     max-width: 100%;
   }
-
   .right-content-part p {
     max-width: 100%;
     font-size: 13px;
@@ -1698,7 +1719,6 @@ i {
   }
 
   /* .seven-section-root */
-
   .seven-section-container h1 {
     max-width: 100%;
     font-size: 35px;
@@ -1729,6 +1749,7 @@ i {
   .eight-section-content-continer button {
     text-align: left;
   }
+
   /* eight-section */
   .sec-8-div-1 {
     justify-content: center;
@@ -1769,6 +1790,7 @@ i {
   .crypto-right-part p {
     font-size: 14px;
   }
+
   /* .nine-section-content */
   .nine-section-root {
     padding: 15px;
@@ -1791,7 +1813,6 @@ i {
     width: 250px;
     height: 450px;
   }
-
   .nine-top-part {
     max-width: 100%;
   }
@@ -1924,6 +1945,7 @@ i {
   .section-12-div-3 p {
     font-size: 13px;
   }
+
   /* black-template-sectin */
   .black-template-content {
     max-width: 100%;
@@ -1951,6 +1973,7 @@ i {
     max-width: 100%;
     font-size: 12px;
   }
+
   /* section-16 */
   .sec-16-content {
     flex-direction: column;
@@ -1980,6 +2003,7 @@ i {
   .sec-16-right-side img {
     max-width: 94%;
   }
+
   /* section-17 */
   .sec-17-content {
     flex-direction: column;
@@ -2013,6 +2037,7 @@ i {
     font-size: 11px;
     max-width: 82%;
   }
+
   /* section-18 */
   .sec-18-top-part {
     text-align: left;
@@ -2061,6 +2086,7 @@ i {
 }
 
 @media (min-width: 600px) and (max-width: 699px) {
+  /* banner-section */
   .banner {
     width: 100%;
     padding: 10px;
@@ -2089,6 +2115,8 @@ i {
     width: 45%;
     margin: 10px;
   }
+
+  /* carousel-section */
   .carousel-between {
     display: flex;
     flex-wrap: wrap;
@@ -2098,6 +2126,8 @@ i {
     width: 100%;
     max-width: 45%;
   }
+
+  /* third-section */
   .heading-part {
     display: flex;
     flex-direction: column;
@@ -2140,6 +2170,7 @@ i {
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
   /* .fifth-section */
   .fifth-section {
     width: 100%;
@@ -2210,7 +2241,6 @@ i {
   }
 
   /* .seven-section-root */
-
   .seven-section-container h1 {
     max-width: 90%;
     font-size: 35px;
@@ -2229,6 +2259,7 @@ i {
   .eight-section-content-continer h1 {
     font-size: 25px;
   }
+
   /* eight-section */
   .sec-8-div-1 {
     justify-content: flex-start;
@@ -2241,7 +2272,6 @@ i {
     height: 150px;
     width: 90px;
   }
-
   .sec-8-div-3 img {
     height: 150px;
     width: 90px;
@@ -2336,6 +2366,7 @@ i {
     border-right: none;
     padding: 10px 1px 10px 39px;
   }
+
   /* .acheivement-section */
   .acheivement-top-part h1 {
     font-size: 35px;
@@ -2482,24 +2513,21 @@ i {
 }
 
 @media (min-width: 501px) and (max-width: 599px) {
+  /* banner-section */
   .banner {
     padding: 20px 10px 0;
   }
-
   .banner h1 {
     font-size: 24px;
   }
-
   .banner h3 {
     font-size: 17px;
     margin: 15px 0 0;
   }
-
   .banner p {
     font-size: 12px;
     margin: 8px 0 0;
   }
-
   .banner button {
     margin: 15px 0 0;
     padding: 12px 25px;
@@ -2509,7 +2537,6 @@ i {
     align-items: center;
     padding-top: 20px;
   }
-
   .box {
     width: 58%;
     margin: 10px 0;
@@ -2518,27 +2545,27 @@ i {
     width: 35px;
     height: 35px;
   }
+
+  /* carousel-section */
   .carousel-section {
     padding: 10px 0 10px 5px;
   }
-
   .carousel-section h3 {
     text-align: center;
     max-width: unset;
     margin-right: unset;
   }
-
   .carousel-between {
     flex-direction: column;
     align-items: center;
     padding: 10px 0 0 0;
   }
-
   .logo-image img {
     margin: 10px 22px;
     width: 110px;
   }
 
+  /* third-section */
   .heading-part {
     display: flex;
     flex-direction: column;
@@ -2583,6 +2610,7 @@ i {
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
   /* .fifth-section */
   .fifth-section {
     width: 100%;
@@ -2628,6 +2656,7 @@ i {
   .xyz {
     padding: 30px;
   }
+
   /* .sixth-section-root */
   .main-content {
     display: flex;
@@ -2643,7 +2672,6 @@ i {
   .right-content-part {
     max-width: 100%;
   }
-
   .right-content-part p {
     max-width: 100%;
     font-size: 16px;
@@ -2654,8 +2682,8 @@ i {
   .bottom-section p {
     font-size: 14px;
   }
-  /* .seven-section-root */
 
+  /* .seven-section-root */
   .seven-section-container h1 {
     max-width: 90%;
     font-size: 35px;
@@ -2688,6 +2716,7 @@ i {
     height: 150px;
     width: 75px;
   }
+
   /* cypto-section */
   .crypto-sec-content {
     flex-direction: column;
@@ -2746,6 +2775,7 @@ i {
     max-width: 100%;
     text-align: left;
   }
+
   /* tech-stack-section */
   .tech-stack-content {
     padding: 15px;
@@ -2801,6 +2831,7 @@ i {
     max-width: 100%;
     font-size: 13px;
   }
+
   /* 12-section */
   .section-12-top-part h1 {
     font-size: 26px;
@@ -2843,6 +2874,7 @@ i {
   .section-12-div-3 p {
     font-size: 13px;
   }
+
   /* black-template-section */
   .black-template-content {
     max-width: 100%;
@@ -2963,11 +2995,11 @@ i {
     gap: 11px;
     justify-items: center;
   }
+
   /* eight-section */
   .sec-8-content {
     padding: 0;
   }
-
   .sec-8-div-1 {
     justify-content: center;
   }
@@ -2988,15 +3020,20 @@ i {
     height: 133px;
     width: 55px;
   }
+
+  /* section-18 */
   .sec-18-bottom-part-div-2 h2 {
     font-size: 15px;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1290px) {
+  /* section-nine */
   .nine-top-part {
     max-width: 80%;
   }
+
+  /* sec-17 */
   .sec-17-right-side h1 {
     max-width: 95%;
     font-size: 36px;
