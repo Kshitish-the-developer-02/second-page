@@ -5,7 +5,8 @@
 }
 
 /* banner section */
-.banner-root {
+.banner-section-root {
+  width: 100%;
   background-image: url(/image//Texture\ 1.png);
 }
 .banner {
@@ -13,11 +14,10 @@
   margin: 0 auto;
   padding: 30px 0 0 14px;
 }
-
 .banner h1 {
   font-family: "Poppins", sans-serif;
 
-  font-size: 46px;
+  font-size: 52px;
   line-height: 1.2;
 }
 .banner h3 {
@@ -28,14 +28,15 @@
 }
 .banner p {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   margin: 10px 0 0 0;
-  /* max-width: 80%; */
 }
 .banner-para {
   max-width: 80%;
 }
 .banner button {
+  font-family: "Poppins", sans-serif;
+font-size: 19px;
   margin: 20px 0 0 0;
   padding: 15px 29px;
   border-radius: 5px;
@@ -49,7 +50,6 @@
   align-items: flex-start;
   padding-top: 75px;
 }
-
 .box {
   width: 30%;
   height: auto;
@@ -66,7 +66,6 @@
   align-items: center;
   margin-top: 10px;
 }
-
 h5 {
   font-family: "Inter", sans-serif;
 }
@@ -87,7 +86,7 @@ h6 {
   padding: 0;
   padding: 30px 0 36px 5px;
 }
-.carousel-section h3 {
+.carousel-section span {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -107,14 +106,13 @@ h6 {
 
 /* .third-section */
 .third-section-root {
-  background-color: #fff4e7;
+  width: 100%;
+  background-color: #ebffff;
 }
 .third-section {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 20px;
-  padding: 0;
-  padding: 30px 6px 30px 14px;
+  padding: 30px 6px 20px 14px;
 }
 .heading-part {
   display: flex;
@@ -122,16 +120,18 @@ h6 {
   align-items: center;
   margin: 10px 10px 35px 10px;
 }
-.heading-part h1 {
+.heading-part h2 {
   font-family: "Poppins", sans-serif;
   font-size: 42px;
   font-weight: 600;
   line-height: 1.2;
+  /* max-width: 106%; */
 }
 .heading-part p {
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
+  max-width: 40%;
 }
 .grid-div-root {
   display: flex;
@@ -178,11 +178,12 @@ h6 {
 }
 .right-side {
   max-width: 54%;
-  background-color: #ffeed9;
+  background-color: #d1ffff;
   border-radius: 9px;
   padding: 10px;
+  margin-bottom: 20px;
 }
-.right-side h2 {
+.right-side h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 31px;
@@ -192,14 +193,14 @@ h6 {
 }
 .right-side p {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   margin: 20px 0 40px 0;
 }
 .right-side button {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 15px;
-  margin: 62px 0 0 0;
-  padding: 15px 29px;
+  font-size: 18px;
+  margin: 62px 0 26px 0;
+  padding: 15px 11px;
   border-radius: 5px;
   border-color: transparent;
   color: white;
@@ -217,6 +218,7 @@ h6 {
 .fourth-section img {
   width: 100%;
 }
+
 /* .fifth-section */
 .fifth-section-root {
   background-color: #f3f6fd;
@@ -228,7 +230,7 @@ h6 {
   padding: 0;
   padding: 30px 6px 0 15px;
 }
-.fifth-section h1 {
+.fifth-section h2 {
   font-family: "Poppins", sans-serif;
   font-size: 41px;
   font-weight: 600;
@@ -326,6 +328,7 @@ h6 {
   background-color: blue;
   font-size: 20px;
 }
+
 /* sixth-section */
 .sixth-content-head {
   background-color: #f4f4f4;
@@ -344,7 +347,7 @@ h6 {
 .left-content-part {
   max-width: 40%;
 }
-.left-content-part h1 {
+.left-content-part h2 {
   font-family: "Poppins", sans-serif;
   font-size: 48px;
   line-height: 1.2;
@@ -403,17 +406,17 @@ h6 {
   margin-left: -19px;
 }
 
-/* seventh-section */
-.seven-section-root {
+/* award-section */
+.award-section-root {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
   padding: 0;
   padding: 30px 10px 30px 15px;
 }
-.seven-section-container h1 {
+.award-section-container h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 41px;
+  font-size: 42px;
   font-weight: 700;
   max-width: 60%;
 }
@@ -432,10 +435,11 @@ h6 {
   margin-top: 30px;
   align-items: center;
 }
-.image-container h3 {
+.image-container span {
   font-family: "Poppins", sans-serif;
   margin: 0 10px 0 10px;
   font-size: 15px;
+  font-weight: 700;
 }
 
 /* eight-section */
@@ -446,7 +450,6 @@ h6 {
   padding: 0;
   padding: 30px 35px 27px 35px;
 }
-
 .sec-8-content {
   border: 2px solid transparent;
   border-radius: 10px;
@@ -462,7 +465,7 @@ h6 {
   align-items: center;
   text-align: center;
 }
-.sec-8-div-1 h1 {
+.sec-8-div-1 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   line-height: 1.2;
@@ -492,7 +495,7 @@ h6 {
 .crypto-left-part {
   max-width: 50%;
 }
-.crypto-left-part h1 {
+.crypto-left-part h2 {
   font-family: "Poppins", sans-serif;
   line-height: 1.3;
   font-size: 41px;
@@ -535,7 +538,7 @@ h6 {
 .nine-top-part h5 {
   font-family: "Poppins", sans-serif;
 }
-.nine-section-right-part h1 {
+.nine-section-right-part h2 {
   font-family: "Poppins", sans-serif;
   font-size: 50px;
   line-height: 1.1;
@@ -706,7 +709,6 @@ h6 {
   margin: 0 auto;
   padding: 30px 10px 30px 15px;
 }
-
 .section-12-top-part {
   margin: 10px 0 24px 0;
 }
@@ -1130,7 +1132,8 @@ i {
 
 /* Responsiveness styles */
 @media only screen and (min-width: 700px) and (max-width: 940px) {
-  .banner {
+   /* banner-section */
+   .banner {
     padding: 40px 20px 0;
   }
   .banner h1 {
@@ -1155,27 +1158,28 @@ i {
     width: calc(50% - 20px);
     margin: 10px;
   }
-  /* carousel-section */
-  .carousel-section {
-    padding: 20px 0 10px 5px;
-  }
-  .carousel-section h3 {
-    max-width: unset;
-    margin-right: unset;
-    font-size: 20px;
-  }
-  .carousel-between {
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 0 0 0;
-  }
-  .logo-image img {
-    margin: 15px 8px;
-    width: 110px;
-  }
 
-  /* third-section */
-  .heading-part h1 {
+ /* carousel-section */
+ .carousel-section {
+  padding: 20px 0 10px 5px;
+}
+.carousel-section span {
+  max-width: unset;
+  margin-right: unset;
+  font-size: 20px;
+}
+.carousel-between {
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0 0 0;
+}
+.logo-image img {
+  margin: 15px 8px;
+  width: 110px;
+}
+
+   /* third-section */
+   .heading-part h2 {
     font-family: "Poppins", sans-serif;
     font-size: 30px;
     font-weight: 600;
@@ -1184,8 +1188,8 @@ i {
   .heading-part p {
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 12px;
-  }
+    font-size: 15px;
+}
   .left-side {
     max-width: 50%;
   }
@@ -1196,7 +1200,7 @@ i {
   .left-side h3 {
     font-size: 15px;
   }
-  .right-side h2 {
+  .right-side h3 {
     font-size: 25px;
   }
   .right-side p {
@@ -1206,6 +1210,7 @@ i {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
 
   /* .fifth-section */
   .tab-section button {
@@ -1217,7 +1222,7 @@ i {
     padding: 10px 20px;
     font-size: 12px;
   }
-  .fifth-section h1 {
+  .fifth-section h2 {
     text-align: left;
     padding: 30px;
   }
@@ -1242,30 +1247,37 @@ i {
     font-size: 14px;
   }
   /* sixth section */
-  .left-content-part h1 {
+  .left-content-part h2 {
     font-size: 40px;
   }
 
-  /* .seven-section-root */
-  .seven-section-container h1 {
-    max-width: 79%;
-    font-size: 35px;
-  }
-  .main-image-container {
-    display: flex;
-    max-width: 83%;
-    align-items: center;
-    justify-content: center;
-  }
-  .image-container {
-    max-width: 30%;
+    /* award-section */
+    .award-section-container h2 {
+      max-width: 79%;
+      font-size: 35px;
+    }
+    .main-image-container {
+      display: flex;
+      max-width: 83%;
+      align-items: center;
+      justify-content: center;
+    }
+    .image-container {
+      max-width: 30%;
+      padding: 5px;
+    }
+    .image-container span {
+      font-family: "Poppins", sans-serif;
+      margin: 0 10px 0 10px;
+      font-size: 14px;
+      font-weight: 700;
   }
 
   /* eight-section */
   .sec-8-div-1 {
     justify-content: flex-start;
   }
-  .sec-8-div-1 h1 {
+  .sec-8-div-1 h2 {
     font-size: 21px;
     max-width: 80%;
   }
@@ -1283,7 +1295,7 @@ i {
   }
 
   /* crypto-section */
-  .crypto-left-part h1 {
+  .crypto-left-part h2 {
     font-size: 31px;
     max-width: 92%;
   }
@@ -1309,7 +1321,7 @@ i {
   .nine-top-part h5 {
     font-family: "Poppins", sans-serif;
   }
-  .nine-section-right-part h1 {
+  .nine-section-right-part h2 {
     font-family: "Poppins", sans-serif;
     font-size: 33px;
     line-height: 1.1;
@@ -1531,44 +1543,44 @@ i {
 }
 
 @media only screen and (max-width: 500px) {
-  /* banner-section */
-  .banner {
-    padding: 20px 15px 0 15px;
-  }
-  .banner h1 {
-    font-size: 24px;
-  }
-  .banner h3 {
-    font-size: 17px;
-    margin: 15px 0 0;
-  }
-  .banner p {
-    font-size: 12px;
-    margin: 8px 0 0;
-  }
-  .banner button {
-    margin: 15px 0 0;
-    padding: 12px 25px;
-  }
-  .box-row {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-  }
-  .box {
-    width: 86%;
-    margin: 10px 0;
-  }
-  .circle img {
-    width: 35px;
-    height: 35px;
-  }
+ /* banner-section */
+ .banner {
+  padding: 20px 15px 0 15px;
+}
+.banner h1 {
+  font-size: 24px;
+}
+.banner h3 {
+  font-size: 17px;
+  margin: 15px 0 0;
+}
+.banner p {
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+.banner button {
+  margin: 15px 0 0;
+  padding: 12px 25px;
+}
+.box-row {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.box {
+  width: 86%;
+  margin: 10px 0;
+}
+.circle img {
+  width: 35px;
+  height: 35px;
+}
 
-  /* carousel-section */
+  /* carousel section */
   .carousel-section {
     padding: 10px 0 10px 5px;
   }
-  .carousel-section h3 {
+  .carousel-section span {
     text-align: center;
     max-width: unset;
     margin-right: unset;
@@ -1583,12 +1595,12 @@ i {
     width: 110px;
   }
 
-  /* third-section */
-  .heading-part {
+   /* third-sec */
+   .heading-part {
     display: flex;
     flex-direction: column;
   }
-  .heading-part h1 {
+  .heading-part h2 {
     line-height: 1.15;
     font-size: 24px;
     margin-bottom: 18px;
@@ -1616,7 +1628,7 @@ i {
   .right-side {
     max-width: 100%;
   }
-  .right-side h2 {
+  .right-side h3 {
     font-size: 24px;
   }
   .right-side p {
@@ -1630,7 +1642,7 @@ i {
   }
 
   /* .fifth-section */
-  .fifth-section h1 {
+  .fifth-section h2 {
     font-size: 24px;
   }
   .tab-section {
@@ -1701,7 +1713,7 @@ i {
   .left-content-part {
     max-width: 100%;
   }
-  .left-content-part h1 {
+  .left-content-part h2 {
     font-size: 35px;
   }
   .right-content-part {
@@ -1718,10 +1730,11 @@ i {
     font-size: 12px;
   }
 
-  /* .seven-section-root */
-  .seven-section-container h1 {
+  /* award-section */
+  .award-section-container h2 {
     max-width: 100%;
-    font-size: 35px;
+    font-size: 29px;
+    line-height: 1.4;
   }
   .main-image-container {
     display: flex;
@@ -1734,7 +1747,8 @@ i {
   .image-container {
     max-width: 30%;
   }
-  .eight-section-content-continer {
+
+  /* .eight-section-content-continer {
     max-width: 100%;
     padding: 20px;
     align-items: start;
@@ -1748,13 +1762,13 @@ i {
   }
   .eight-section-content-continer button {
     text-align: left;
-  }
+  } */
 
-  /* eight-section */
+   /* eight-section */
   .sec-8-div-1 {
     justify-content: center;
   }
-  .sec-8-div-1 h1 {
+  .sec-8-div-1 h2 {
     font-size: 15px;
     max-width: 95%;
   }
@@ -1782,7 +1796,7 @@ i {
   .crypto-right-part {
     max-width: 100%;
   }
-  .crypto-left-part h1 {
+  .crypto-left-part h2 {
     font-size: 29px;
     margin-bottom: 10px;
     line-height: 1.3;
@@ -1816,7 +1830,7 @@ i {
   .nine-top-part {
     max-width: 100%;
   }
-  .nine-section-right-part h1 {
+  .nine-section-right-part h2 {
     max-width: 100%;
     font-size: 29px;
     text-align: left;
@@ -2132,7 +2146,7 @@ i {
     display: flex;
     flex-direction: column;
   }
-  .heading-part h1 {
+  .heading-part h2 {
     font-size: 29px;
   }
   .heading-part p {
@@ -2158,7 +2172,7 @@ i {
   .right-side {
     max-width: 100%;
   }
-  .right-side h2 {
+  .right-side h3 {
     font-size: 24px;
   }
   .right-side p {
@@ -2175,7 +2189,7 @@ i {
   .fifth-section {
     width: 100%;
   }
-  .fifth-section h1 {
+  .fifth-section h2 {
     font-size: 34px;
   }
   .tab-section button {
@@ -2233,15 +2247,15 @@ i {
   .left-content-part {
     max-width: 100%;
   }
-  .left-content-part h1 {
+  .left-content-part h2 {
     font-size: 40px;
   }
   .right-content-part {
     max-width: 100%;
   }
 
-  /* .seven-section-root */
-  .seven-section-container h1 {
+  /* award-section */
+  .award-section-container h2 {
     max-width: 90%;
     font-size: 35px;
   }
@@ -2256,26 +2270,23 @@ i {
   .image-container {
     max-width: 30%;
   }
-  .eight-section-content-continer h1 {
-    font-size: 25px;
-  }
 
-  /* eight-section */
-  .sec-8-div-1 {
-    justify-content: flex-start;
-  }
-  .sec-8-div-1 h1 {
-    font-size: 18px;
-    max-width: 85%;
-  }
-  .sec-8-div-2 img {
-    height: 150px;
-    width: 90px;
-  }
-  .sec-8-div-3 img {
-    height: 150px;
-    width: 90px;
-  }
+ /* eight-section */
+ .sec-8-div-1 {
+  justify-content: flex-start;
+}
+.sec-8-div-1 h2 {
+  font-size: 18px;
+  max-width: 85%;
+}
+.sec-8-div-2 img {
+  height: 150px;
+  width: 90px;
+}
+.sec-8-div-3 img {
+  height: 150px;
+  width: 90px;
+}
 
   /* cypto-section */
   .crypto-sec-content {
@@ -2287,7 +2298,7 @@ i {
   .crypto-right-part {
     max-width: 100%;
   }
-  .crypto-left-part h1 {
+  .crypto-left-part h2 {
     font-size: 35px;
     margin-bottom: 10px;
     line-height: 1.3;
@@ -2318,7 +2329,7 @@ i {
   .nine-top-part {
     max-width: 100%;
   }
-  .nine-section-right-part h1 {
+  .nine-section-right-part h2 {
     max-width: 90%;
     font-size: 35px;
     text-align: left;
@@ -2513,8 +2524,8 @@ i {
 }
 
 @media (min-width: 501px) and (max-width: 599px) {
-  /* banner-section */
-  .banner {
+   /* banner-section */
+   .banner {
     padding: 20px 10px 0;
   }
   .banner h1 {
@@ -2550,7 +2561,7 @@ i {
   .carousel-section {
     padding: 10px 0 10px 5px;
   }
-  .carousel-section h3 {
+  .carousel-section span {
     text-align: center;
     max-width: unset;
     margin-right: unset;
@@ -2570,7 +2581,7 @@ i {
     display: flex;
     flex-direction: column;
   }
-  .heading-part h1 {
+  .heading-part h2 {
     line-height: 1.15;
     font-size: 24px;
     margin-bottom: 18px;
@@ -2598,7 +2609,7 @@ i {
   .right-side {
     max-width: 100%;
   }
-  .right-side h2 {
+  .right-side h3 {
     font-size: 24px;
   }
   .right-side p {
@@ -2615,7 +2626,7 @@ i {
   .fifth-section {
     width: 100%;
   }
-  .fifth-section h1 {
+  .fifth-section h2 {
     font-size: 34px;
   }
   .tab-section button {
@@ -2666,7 +2677,7 @@ i {
   .left-content-part {
     max-width: 100%;
   }
-  .left-content-part h1 {
+  .left-content-part h2 {
     font-size: 34px;
   }
   .right-content-part {
@@ -2683,8 +2694,8 @@ i {
     font-size: 14px;
   }
 
-  /* .seven-section-root */
-  .seven-section-container h1 {
+  /* award-section */
+  .award-section-container h2 {
     max-width: 90%;
     font-size: 35px;
   }
@@ -2704,7 +2715,7 @@ i {
   .sec-8-div-1 {
     justify-content: flex-start;
   }
-  .sec-8-div-1 h1 {
+  .sec-8-div-1 h2 {
     font-size: 18px;
     max-width: 95%;
   }
@@ -2727,7 +2738,7 @@ i {
   .crypto-right-part {
     max-width: 100%;
   }
-  .crypto-left-part h1 {
+  .crypto-left-part h2 {
     font-size: 29px;
     margin-bottom: 10px;
     line-height: 1.3;
@@ -2757,7 +2768,7 @@ i {
   .nine-top-part {
     max-width: 100%;
   }
-  .nine-section-right-part h1 {
+  .nine-section-right-part h2 {
     max-width: 100%;
     font-size: 29px;
     text-align: left;
@@ -3003,7 +3014,7 @@ i {
   .sec-8-div-1 {
     justify-content: center;
   }
-  .sec-8-div-1 h1 {
+  .sec-8-div-1 h2 {
     font-size: 13px;
     max-width: 95%;
   }
@@ -3020,6 +3031,7 @@ i {
     height: 133px;
     width: 55px;
   }
+ 
 
   /* section-18 */
   .sec-18-bottom-part-div-2 h2 {
