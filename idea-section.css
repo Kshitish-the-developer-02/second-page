@@ -41,13 +41,13 @@
   align-items: center;
   text-align: center;
 }
-.idea-div h4 {
+.idea-div h3 {
   text-align: left;
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 13.28px;
+  font-size: 16px;
 }
-.idea-div h5 {
+.idea-div h4 {
   text-align: left;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -73,7 +73,7 @@
   max-width: 91%;
   margin-bottom: 20px;
 }
-.idea-right-part h3 {
+.idea-right-part span {
   display: flex;
   max-width: 28%;
   font-family: "Poppins", sans-serif;
@@ -104,7 +104,7 @@
     max-width: 100%;
     margin-bottom: 10px;
   }
-  .idea-right-part h3 {
+  .idea-right-part span {
     max-width: 60%;
   }
   .idea-left-part .idea-div {
@@ -126,7 +126,7 @@
     bottom: -115px;
     gap: 12px;
   }
-  .idea-right-part h3 {
+  .idea-right-part span {
     max-width: 60%;
   }
 }
@@ -158,10 +158,10 @@
     bottom: -58px;
     right: -85px;
   }
-  .idea-div h4 {
+  .idea-div h3 {
     font-size: 12px;
   }
-  .idea-div h5 {
+  .idea-div h4 {
     font-size: 25px;
   }
   .idea-div p {
@@ -204,10 +204,10 @@
     bottom: -58px;
     right: -33px;
   }
-  .idea-div h4 {
+  .idea-div h3 {
     font-size: 12px;
   }
-  .idea-div h5 {
+  .idea-div h4 {
     font-size: 25px;
   }
   .idea-div p {
@@ -247,10 +247,10 @@
     bottom: -73px;
     right: 28px;
 }
-  .idea-div h4 {
+  .idea-div h3 {
     font-size: 10px;
   }
-  .idea-div h5 {
+  .idea-div h4 {
     font-size: 17px;
   }
   .idea-div p {
@@ -264,7 +264,7 @@
   .idea-right-part .para-2 {
     margin-top: 5px;
   }
-  .idea-right-part h3{
+  .idea-right-part span{
     max-width: 60%;
   }
   .idea-section-top-part span {

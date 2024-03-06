@@ -65,17 +65,22 @@
   align-items: center;
   margin-top: 10px;
 }
-h5 {
-  font-family: "Inter", sans-serif;
-}
-h6 {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-}
 .text {
   margin-left: 10px;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
 }
+.text-h5 {
+  font-size: 13.28px;
+  font-family: "Inter", sans-serif;
+}
+.text-h6 {
+  font-size: 10.72;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
 
 /* carousel section */
 .carousel-section {
@@ -570,7 +575,7 @@ h6 {
   max-width: 70%;
 }
 .column-div h3 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   margin-left: 20px;
 }
@@ -641,7 +646,7 @@ h6 {
 }
 .icon-section h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 600;
   margin: 8px 13px 10px 7px;
 }
@@ -855,7 +860,7 @@ h6 {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   max-width: 70%;
 }
 .black-div {
@@ -908,7 +913,7 @@ h6 {
 }
 .sec-16-left-side h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -962,7 +967,7 @@ i {
   margin: 20px 0px 0px 60px;
   padding: 15px;
 }
-.sec-17-right-side span{
+.sec-17-right-side span {
   font-family: "Poppins", sans-serif;
   font-size: 11px;
   font-weight: 400;
@@ -982,7 +987,7 @@ i {
 }
 .sec-17-right-side h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
   margin-bottom: 5px;
   max-width: 80%;
@@ -1000,7 +1005,7 @@ i {
 }
 .sec-17-right-side h4 {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   max-width: 45%;
   margin: 10px 0 10px 0;
@@ -1066,7 +1071,7 @@ i {
   align-items: center;
   text-align: center;
 }
-.sec-18-bottom-part-div-2 h3{
+.sec-18-bottom-part-div-2 h3 {
   font-family: "Poppins", sans-serif;
   font-size: 19px;
   font-weight: 500;
@@ -1475,7 +1480,7 @@ i {
     font-size: 13px;
     max-width: 90%;
   }
-  .sec-17-right-side span{
+  .sec-17-right-side span {
     font-size: 10px;
   }
   .sec-17-right-side h3 {
@@ -3042,7 +3047,7 @@ i {
   }
 
   /* section-18 */
-  .sec-18-bottom-part-div-2 h3{
+  .sec-18-bottom-part-div-2 h3 {
     font-size: 15px;
   }
 }
