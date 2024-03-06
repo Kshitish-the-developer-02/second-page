@@ -225,7 +225,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .idea-section-content{
+  .idea-section-content {
     margin: 0;
   }
   .idea-section-top-part h2 {
@@ -235,7 +235,7 @@
   .idea-left-part img {
     width: 280px;
     height: 204px;
-}
+  }
   .idea-section-bottom-part {
     flex-direction: column;
     justify-content: center;
@@ -246,7 +246,7 @@
     top: 10rem;
     bottom: -73px;
     right: 28px;
-}
+  }
   .idea-div h3 {
     font-size: 10px;
   }
@@ -264,12 +264,12 @@
   .idea-right-part .para-2 {
     margin-top: 5px;
   }
-  .idea-right-part span{
+  .idea-right-part span {
     max-width: 60%;
   }
   .idea-section-top-part span {
     font-size: 12px;
     max-width: 50%;
     font-weight: 500;
-}
+  }
 }
