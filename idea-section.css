@@ -7,14 +7,14 @@
   padding: 15px;
   margin-bottom: 96px;
 }
-.idea-section-top-part h1 {
+.idea-section-top-part h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 41px;
+  font-size: 46px;
   max-width: 71%;
   margin-bottom: 40px;
   line-height: 1.25;
 }
-.idea-section-top-part h5 {
+.idea-section-top-part span {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 500;
@@ -41,17 +41,17 @@
   align-items: center;
   text-align: center;
 }
-
+.idea-div h4 {
+  text-align: left;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 13.28px;
+}
 .idea-div h5 {
   text-align: left;
   color: white;
   font-family: "Poppins", sans-serif;
-}
-
-.idea-div h1 {
-  text-align: left;
-  color: white;
-  font-family: "Poppins", sans-serif;
+  font-size: 32px;
 }
 .idea-div p {
   color: white;
@@ -86,7 +86,7 @@
 }
 
 @media only screen and (min-width: 700px) and (max-width: 940px) {
-  .idea-section-top-part h1 {
+  .idea-section-top-part h2 {
     font-size: 35px;
   }
 
@@ -135,11 +135,11 @@
   .idea-section-content {
     margin-bottom: 0;
   }
-  .idea-section-top-part h1 {
+  .idea-section-top-part h2 {
     font-size: 35px;
     max-width: 87%;
   }
-  .idea-section-top-part h5 {
+  .idea-section-top-part span {
     font-size: 11px;
     font-weight: 500;
   }
@@ -158,10 +158,10 @@
     bottom: -58px;
     right: -85px;
   }
-  .idea-div h5 {
+  .idea-div h4 {
     font-size: 12px;
   }
-  .idea-div h1 {
+  .idea-div h5 {
     font-size: 25px;
   }
   .idea-div p {
@@ -181,11 +181,11 @@
   .idea-section-content {
     margin-bottom: 0;
   }
-  .idea-section-top-part h1 {
+  .idea-section-top-part h2 {
     font-size: 30px;
     max-width: 92%;
   }
-  .idea-section-top-part h5 {
+  .idea-section-top-part span {
     font-size: 11px;
     font-weight: 500;
   }
@@ -204,10 +204,10 @@
     bottom: -58px;
     right: -33px;
   }
-  .idea-div h5 {
+  .idea-div h4 {
     font-size: 12px;
   }
-  .idea-div h1 {
+  .idea-div h5 {
     font-size: 25px;
   }
   .idea-div p {
@@ -228,7 +228,7 @@
   .idea-section-content{
     margin: 0;
   }
-  .idea-section-top-part h1 {
+  .idea-section-top-part h2 {
     font-size: 26px;
     max-width: 100%;
   }
@@ -247,10 +247,10 @@
     bottom: -73px;
     right: 28px;
 }
-  .idea-div h5 {
+  .idea-div h4 {
     font-size: 10px;
   }
-  .idea-div h1 {
+  .idea-div h5 {
     font-size: 17px;
   }
   .idea-div p {
@@ -267,7 +267,7 @@
   .idea-right-part h3{
     max-width: 60%;
   }
-  .idea-section-top-part h5 {
+  .idea-section-top-part span {
     font-size: 12px;
     max-width: 50%;
     font-weight: 500;
