@@ -87,9 +87,10 @@
 
 @media only screen and (min-width: 700px) and (max-width: 940px) {
   .idea-section-top-part h2 {
-    font-size: 35px;
-  }
-
+    font-size: 41px;
+    line-height: 1.1;
+    max-width: 100%;
+}
   .idea-left-part img {
     width: 392px;
     height: 246px;
@@ -136,9 +137,9 @@
     margin-bottom: 0;
   }
   .idea-section-top-part h2 {
-    font-size: 35px;
-    max-width: 87%;
-  }
+    font-size: 40px;
+    max-width: 100%;
+}
   .idea-section-top-part span {
     font-size: 11px;
     font-weight: 500;
@@ -182,8 +183,8 @@
     margin-bottom: 0;
   }
   .idea-section-top-part h2 {
-    font-size: 30px;
-    max-width: 92%;
+    font-size: 35px;
+    max-width: 100%;
   }
   .idea-section-top-part span {
     font-size: 11px;
@@ -212,12 +213,11 @@
   }
   .idea-div p {
     text-align: left;
-    font-size: 11px;
+    font-size: 12px;
   }
-
   .idea-right-part p {
     margin-top: 71px;
-    font-size: 13px;
+    font-size: 16px;
   }
   .idea-right-part .para-2 {
     margin-top: 5px;
@@ -229,7 +229,7 @@
     margin: 0;
   }
   .idea-section-top-part h2 {
-    font-size: 26px;
+    font-size: 29px;
     max-width: 100%;
   }
   .idea-left-part img {
@@ -259,7 +259,7 @@
   }
   .idea-right-part p {
     margin-top: 71px;
-    font-size: 13px;
+    font-size: 16px;
   }
   .idea-right-part .para-2 {
     margin-top: 5px;

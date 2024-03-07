@@ -19,19 +19,22 @@
   font-size: 55px;
   line-height: 1.2;
 }
-.banner span {
+.banner-section-para {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 600;
   margin: 20px 0 0 0;
 }
-.banner p {
+.banner-para {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  max-width: 80%;
+  margin: 15px 0 0 0;
+}
+.box-row p {
   font-family: "Inter", sans-serif;
   font-size: 19px;
   margin: 10px 0 0 0;
-}
-.banner-para {
-  max-width: 80%;
 }
 .banner button {
   font-family: "Poppins", sans-serif;
@@ -420,9 +423,10 @@
 }
 .award-section-container h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 46px;
+  font-size: 48px;
   font-weight: 700;
   max-width: 60%;
+  line-height: 1.2;
 }
 .main-image-container {
   display: flex;
@@ -614,7 +618,7 @@
 }
 .stack-bottom-content button {
   font-family: "Plus Jakarta Sans", sans-serif;
-  padding: 10px 20px;
+  padding: 10px 14px;
   border: 1px solid transparent;
   border-radius: 5px;
   background-color: rgb(229 243 243);
@@ -641,7 +645,7 @@
   align-items: center;
   text-align: center;
   border-right: 2px solid rgb(231, 225, 225);
-  padding: 3px 43px 0px 25px;
+  padding: 3px 31px 0px 12px;
 }
 .icon-section h3 {
   font-family: "Poppins", sans-serif;
@@ -872,10 +876,6 @@
   color: rgb(89, 141, 253);
   font-size: 10px;
 }
-/* .black-div h4 {
-  margin-left: 10px;
-} */
-
 /* section-16 */
 .sec-16-root {
   max-width: 1300px;
@@ -1006,7 +1006,7 @@ i {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  max-width: 45%;
+  max-width: 60%;
   margin: 10px 0 10px 0;
 }
 
@@ -1047,7 +1047,7 @@ i {
 }
 .sec-18-bottom-part-div-1 h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -1062,6 +1062,7 @@ i {
 .sec-18-bottom-part p {
   font-family: "Inter", sans-serif;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 .sec-18-bottom-part-div-2 {
   display: flex;
@@ -1151,19 +1152,24 @@ i {
     padding: 40px 20px 0;
   }
   .banner h1 {
-    font-size: 41px;
+    font-size: 46px;
   }
-  .banner span {
+  .banner-section-para {
     font-size: 20px;
     margin: 20px 0 0;
   }
-  .banner p {
-    font-size: 15px;
+  .banner-para {
+    font-size: 18px;
+    margin: 15px 0 0;
+    max-width: 95%;
+  }
+  .box-row p {
+    font-size: 18px;
     margin: 15px 0 0;
   }
   .banner button {
     margin: 25px 0 0;
-    padding: 16px 30px;
+    padding: 10px 12px;
   }
   .box-row {
     flex-wrap: wrap;
@@ -1171,6 +1177,7 @@ i {
   .box {
     width: calc(50% - 20px);
     margin: 10px;
+    padding: 10px;
   }
 
   /* carousel-section */
@@ -1202,7 +1209,7 @@ i {
   .heading-part p {
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
   }
   .left-side {
     max-width: 50%;
@@ -1212,17 +1219,19 @@ i {
     height: 301px;
   }
   .left-side p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .right-side span {
     font-size: 25px;
   }
   .right-side p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .right-side button {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px 12px;
+    font-size: 16px;
   }
 
   /* .fifth-section */
@@ -1236,8 +1245,9 @@ i {
     font-size: 12px;
   }
   .fifth-section h2 {
-    text-align: left;
-    padding: 30px;
+    text-align: center;
+    padding: 0px;
+    font-size: 41px;
   }
   .left-content {
     max-width: 50%;
@@ -1257,17 +1267,21 @@ i {
     font-size: 17px;
   }
   .right-content p {
-    font-size: 14px;
+    font-size: 16px;
   }
+
   /* sixth section */
   .left-content-part h2 {
-    font-size: 40px;
+    font-size: 38px;
+  }
+  .right-content-part p {
+    font-size: 17px;
   }
 
   /* award-section */
   .award-section-container h2 {
     max-width: 79%;
-    font-size: 35px;
+    font-size: 41px;
   }
   .main-image-container {
     display: flex;
@@ -1309,11 +1323,11 @@ i {
 
   /* crypto-section */
   .crypto-left-part h2 {
-    font-size: 31px;
+    font-size: 35px;
     max-width: 92%;
   }
   .crypto-right-part p {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   /* .nine-section-content */
@@ -1336,14 +1350,14 @@ i {
   }
   .nine-section-right-part h2 {
     font-family: "Poppins", sans-serif;
-    font-size: 33px;
+    font-size: 41px;
     line-height: 1.1;
-    max-width: 94%;
+    max-width: 100%;
   }
   .nine-section-right-part p {
     font-family: "Inter", sans-serif;
-    font-size: 13px;
-    max-width: 84%;
+    font-size: 16px;
+    max-width: 100%;
     margin: 20px 0 20px 0;
     line-height: 1.4;
   }
@@ -1364,7 +1378,7 @@ i {
     max-width: 86%;
   }
   .column-div h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     margin-left: 20px;
   }
@@ -1378,10 +1392,11 @@ i {
     flex-wrap: wrap;
   }
   .stack-top-content h2 {
-    font-size: 35px;
+    font-size: 41px;
+    line-height: 1.1;
   }
   .stack-top-content p {
-    font-size: 15px;
+    font-size: 17px;
   }
   .stack-bottom-content {
     flex-wrap: wrap;
@@ -1399,6 +1414,9 @@ i {
   .icon7 {
     padding: 8px 15px 0 0px;
   }
+  .icon-section h3 {
+    font-size: 16px;
+  }
   .acheivement-top-part h2 {
     font-size: 35px;
   }
@@ -1409,10 +1427,20 @@ i {
     max-width: 67%;
   }
 
+  /* acheivement section */
+  .acheivement-top-part h2 {
+    font-size: 41px;
+  }
+
   /* 12-section */
+  .section-12-top-part h2 {
+    font-size: 41px;
+    line-height: 1.1;
+  }
   .section-12-top-part p {
     font-size: 16px;
     max-width: 80%;
+    margin-top: 10px;
   }
   .section-12-left-part {
     max-width: 35%;
@@ -1431,7 +1459,7 @@ i {
     padding: 10px;
   }
   .section-12-div-3 p {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 25px;
   }
 
@@ -1457,7 +1485,7 @@ i {
     max-width: 100%;
   }
   .sec-16-left-side p {
-    font-size: 13px;
+    font-size: 16px;
     max-width: 90%;
   }
   .sec-16-left-side span {
@@ -1476,22 +1504,32 @@ i {
     max-width: 100%;
   }
   .sec-17-right-side p {
-    font-size: 13px;
-    max-width: 90%;
+    font-size: 16px;
+    max-width: 100%;
   }
   .sec-17-right-side span {
     font-size: 10px;
   }
   .sec-17-right-side h3 {
     max-width: 80%;
-    font-size: 12px;
+    font-size: 17px;
   }
-  .sec-17-right-side h3 {
-    font-size: 14px;
+  .sec-17-right-side h4 {
+    max-width: 100%;
+    font-size: 16px;
   }
 }
 
 @media (min-width: 941px) and (max-width: 1024px) {
+  /* banner-section */
+  .box {
+    padding: 10px;
+  }
+  .box-row p {
+    font-size: 18px;
+  }
+
+  /* carousel-section */
   .logo-image img {
     margin: 15px 8px;
     width: 146px;
@@ -1534,6 +1572,15 @@ i {
     font-size: 36px;
   }
 
+  /* section-12 */
+  .section-12-top-part h2 {
+    max-width: 78%;
+    line-height: 1.1;
+  }
+  .section-12-top-part p {
+    margin-top: 10px;
+  }
+
   /* section-17 */
   .sec-17-right-side h2 {
     max-width: 95%;
@@ -1543,15 +1590,26 @@ i {
     max-width: 86%;
   }
   .sec-17-right-side h3 {
+    font-size: 19px;
     max-width: 60%;
   }
-  .sec-17-right-side h3 {
-    font-size: 15px;
+  .sec-17-right-side h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 80%;
+    margin: 10px 0 10px 0;
   }
 
   /* black-template */
   .black-right-part h2 {
-    max-width: 75%;
+    max-width: 80%;
+  }
+  .black-right-part p {
+    max-width: 80%;
+  }
+  .black-right-part h3 {
+    font-weight: 400;
   }
 }
 
@@ -1561,19 +1619,25 @@ i {
     padding: 20px 15px 0 15px;
   }
   .banner h1 {
-    font-size: 24px;
+    font-size: 31px;
   }
-  .banner span {
+  .banner-section-para {
     font-size: 17px;
     margin: 15px 0 0;
   }
-  .banner p {
-    font-size: 12px;
+  .banner-para {
+    font-size: 16px;
+    margin: 8px 0 0;
+    max-width: 100%;
+  }
+  .box-row p {
+    font-size: 16px;
     margin: 8px 0 0;
   }
   .banner button {
     margin: 15px 0 0;
-    padding: 12px 25px;
+    padding: 10px 12px;
+    font-size: 14px;
   }
   .box-row {
     flex-direction: column;
@@ -1615,11 +1679,12 @@ i {
   }
   .heading-part span {
     line-height: 1.15;
-    font-size: 24px;
+    font-size: 29px;
     margin-bottom: 18px;
   }
   .heading-part p {
-    font-size: 13px;
+    font-size: 16px;
+    max-width: 100%;
   }
   .grid-div-root {
     display: flex;
@@ -1631,11 +1696,11 @@ i {
     text-align: center;
   }
   .left-side img {
-    width: 220px;
-    height: 221px;
+    width: 277px;
+    height: 274px;
   }
   .left-side p {
-    font-size: 13px;
+    font-size: 16px;
     text-align: left;
   }
   .right-side {
@@ -1645,18 +1710,18 @@ i {
     font-size: 24px;
   }
   .right-side p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .right-side button {
-    font-size: 12px;
-    padding: 15px;
+    font-size: 14px;
+    padding: 10px 12px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
 
   /* .fifth-section */
   .fifth-section h2 {
-    font-size: 24px;
+    font-size: 29px;
   }
   .tab-section {
     display: grid;
@@ -1707,11 +1772,11 @@ i {
     align-items: center;
   }
   .right-content h3 {
-    font-size: 16px;
+    font-size: 17px;
   }
   .right-content p {
-    font-size: 11px;
-    max-width: 92%;
+    font-size: 16px;
+    max-width: 100%;
   }
   .xyz {
     padding: 0 0 10px 99px;
@@ -1727,20 +1792,20 @@ i {
     max-width: 100%;
   }
   .left-content-part h2 {
-    font-size: 35px;
+    font-size: 29px;
   }
   .right-content-part {
     max-width: 100%;
   }
   .right-content-part p {
     max-width: 100%;
-    font-size: 13px;
+    font-size: 16px;
   }
   .bottom-section h3 {
     font-size: 21px;
   }
   .bottom-section p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   /* award-section */
@@ -1761,23 +1826,7 @@ i {
     max-width: 30%;
   }
 
-  /* .eight-section-content-continer {
-    max-width: 100%;
-    padding: 20px;
-    align-items: start;
-    margin: 16px;
-    justify-content: center;
-  }
-  .eight-section-content-continer h1 {
-    font-size: 18px;
-    text-align: left;
-    max-width: 100%;
-  }
-  .eight-section-content-continer button {
-    text-align: left;
-  } */
-
-  /* eight-section */
+  /* sec-8 */
   .sec-8-div-1 {
     justify-content: center;
   }
@@ -1815,7 +1864,7 @@ i {
     line-height: 1.3;
   }
   .crypto-right-part p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* .nine-section-content */
@@ -1829,7 +1878,7 @@ i {
     max-width: 100%;
   }
   .nine-section-right-part {
-    text-align: center;
+    text-align: left;
     max-width: 100%;
     padding: 14px;
   }
@@ -1851,7 +1900,7 @@ i {
   }
   .nine-section-right-part p {
     max-width: 100%;
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
   }
   .nine-section-right-part button {
@@ -1867,10 +1916,13 @@ i {
     padding: 10px;
   }
   .stack-top-content h2 {
-    font-size: 30px;
+    font-size: 29px;
+    line-height: 1.2;
   }
   .stack-top-content p {
-    font-size: 13px;
+    font-size: 16px;
+    max-width: 100%;
+    text-align: left;
   }
   .stack-bottom-content {
     display: grid;
@@ -1904,40 +1956,37 @@ i {
     max-width: 100%;
   }
   .acheivement-top-part h2 {
-    font-size: 30px;
+    font-size: 29px;
     max-width: 100%;
   }
   .acheivement-top-part p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .bottom-div {
     flex-direction: column;
     gap: 5px;
     align-items: center;
-    /* text-align: center; */
     justify-content: center;
   }
-  .acheivement-top-part h2 {
-    font-size: 26px;
-    max-width: 100%;
-  }
   .bottom-div p {
-    font-size: 13px;
+    font-size: 16px;
     max-width: 100%;
     align-items: flex-end;
   }
   .bottom-div h3 {
-    font-size: 15px;
+    font-size: 17px;
     max-width: 100%;
   }
 
   /* 12-section */
   .section-12-top-part h2 {
-    font-size: 26px;
+    font-size: 29px;
+    line-height: 1.2;
   }
   .section-12-top-part p {
-    font-size: 13px;
+    font-size: 16px;
     max-width: 100%;
+    margin-top: 10px;
   }
   .section-12-bottom-part {
     flex-direction: column;
@@ -1970,7 +2019,7 @@ i {
     padding: 8px;
   }
   .section-12-div-3 p {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   /* black-template-sectin */
@@ -1994,11 +2043,12 @@ i {
   }
   .black-right-part h2 {
     max-width: 100%;
-    font-size: 25px;
+    font-size: 24px;
   }
   .black-right-part p {
     max-width: 100%;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 400;
   }
 
   /* section-16 */
@@ -2014,13 +2064,13 @@ i {
     max-width: 100%;
   }
   .sec-16-left-side h2 {
-    max-width: 93%;
+    max-width: 100%;
     line-height: 1.2;
-    font-size: 25px;
+    font-size: 29px;
   }
   .sec-16-left-side p {
-    max-width: 86%;
-    font-size: 14px;
+    max-width: 100%;
+    font-size: 16px;
   }
   .sec-16-right-side {
     max-width: 100%;
@@ -2042,15 +2092,16 @@ i {
   }
   .sec-17-right-side {
     max-width: 100%;
+    margin: 0;
   }
   .sec-17-right-side h2 {
     max-width: 100%;
     line-height: 1.2;
-    font-size: 25px;
+    font-size: 29px;
   }
   .sec-17-right-side p {
-    max-width: 106%;
-    font-size: 14px;
+    max-width: 100%;
+    font-size: 16px;
   }
   .sec-17-left-side {
     max-width: 100%;
@@ -2061,39 +2112,45 @@ i {
     max-width: 94%;
   }
   .sec-17-right-side h3 {
-    font-size: 11px;
+    font-size: 17px;
     max-width: 82%;
+  }
+  .sec-17-right-side h4 {
+    max-width: 100%;
+    font-size: 16px;
   }
 
   /* section-18 */
+
   .sec-18-top-part {
     text-align: left;
     align-items: start;
   }
   .sec-18-top-part h2 {
     font-family: "Poppins", sans-serif;
+    font-size: 29px;
   }
   .sec-18-top-part p {
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     max-width: 100%;
     margin: 5px 0 28px 0;
   }
   .sec-18-bottom-part p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* ui-ux-faq-section */
   .ui-ux-heading-part h2 {
-    font-size: 32px;
+    font-size: 29px;
   }
   .ui-ux-heading-part p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
     max-width: 100%;
   }
   .ui-ux-bottom-part {
-    padding: 20px;
+    padding: 0;
   }
   .ui-ux-bottom-top i {
     font-size: 28px;
@@ -2102,7 +2159,7 @@ i {
     font-size: 18px;
   }
   .ui-ux-bottom-top p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .ui-ux-bottom-down i {
     font-size: 28px;
@@ -2119,16 +2176,22 @@ i {
     padding: 10px;
   }
   .banner h1 {
-    font-size: 34px;
+    font-size: 40px;
   }
-  .banner span {
+  .banner-section-para {
     font-size: 18px;
   }
-  .banner p {
-    font-size: 13px;
+  .banner-para {
+    font-size: 17px;
+    max-width: 100%;
+  }
+  .box-row p {
+    font-size: 16px;
+    max-width: 100%;
   }
   .banner button {
-    font-size: 11px;
+    font-size: 14px;
+    padding: 10px 12px;
   }
   .box-row {
     width: 100%;
@@ -2141,6 +2204,7 @@ i {
   .box {
     width: 45%;
     margin: 10px;
+    padding: 10px;
   }
 
   /* carousel-section */
@@ -2153,6 +2217,13 @@ i {
     width: 100%;
     max-width: 45%;
   }
+  .carousel-section span {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    max-width: 60%;
+    margin-right: 63px;
+  }
 
   /* third-section */
   .heading-part {
@@ -2160,10 +2231,12 @@ i {
     flex-direction: column;
   }
   .heading-part span {
-    font-size: 29px;
+    font-size: 35px;
   }
   .heading-part p {
-    font-size: 15px;
+    font-size: 16px;
+    max-width: 100%;
+    margin-top: 10px;
   }
   .grid-div-root {
     display: flex;
@@ -2175,25 +2248,25 @@ i {
     text-align: center;
   }
   .left-side img {
-    width: 220px;
-    height: 221px;
+    width: 261px;
+    height: 277px;
   }
   .left-side p {
-    font-size: 13px;
+    font-size: 16px;
     text-align: left;
   }
   .right-side {
     max-width: 100%;
   }
   .right-side span {
-    font-size: 24px;
+    font-size: 29px;
   }
   .right-side p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .right-side button {
-    font-size: 12px;
-    padding: 15px;
+    font-size: 14px;
+    padding: 10px 12px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -2203,7 +2276,7 @@ i {
     width: 100%;
   }
   .fifth-section h2 {
-    font-size: 34px;
+    font-size: 40px;
   }
   .tab-section button {
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -2270,7 +2343,7 @@ i {
   /* award-section */
   .award-section-container h2 {
     max-width: 90%;
-    font-size: 35px;
+    font-size: 40px;
   }
   .main-image-container {
     display: flex;
@@ -2312,9 +2385,9 @@ i {
     max-width: 100%;
   }
   .crypto-left-part h2 {
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 10px;
-    line-height: 1.3;
+    line-height: 1.2;
   }
 
   /* .nine-section-content */
@@ -2330,7 +2403,7 @@ i {
     /* justify-content: center; */
   }
   .nine-section-right-part {
-    text-align: center;
+    text-align: left;
     max-width: 100%;
     padding: 14px;
     align-items: center;
@@ -2343,14 +2416,14 @@ i {
     max-width: 100%;
   }
   .nine-section-right-part h2 {
-    max-width: 90%;
-    font-size: 35px;
+    max-width: 100%;
+    font-size: 40px;
     text-align: left;
     margin-top: 25px;
   }
   .nine-section-right-part p {
-    max-width: 80%;
-    font-size: 15px;
+    max-width: 92%;
+    font-size: 16px;
     text-align: left;
   }
   .nine-section-right-part button {
@@ -2362,16 +2435,27 @@ i {
   }
 
   /* tech-stack-section */
+  .tech-stack-section-root {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px 10px 30px 15px;
+  }
+  .tech-stack-content {
+    padding: 5px;
+  }
   .stack-top-content h2 {
-    font-size: 30px;
+    font-size: 40px;
+    line-height: 1.1;
   }
   .stack-top-content p {
-    font-size: 13px;
+    font-size: 16px;
+    max-width: 90%;
   }
+
   .stack-bottom-content {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    gap: 3px;
     justify-items: center;
   }
   .icon-section {
@@ -2393,7 +2477,7 @@ i {
 
   /* .acheivement-section */
   .acheivement-top-part h2 {
-    font-size: 35px;
+    font-size: 40px;
   }
   .bottom-div {
     max-width: 100%;
@@ -2403,15 +2487,17 @@ i {
   }
   .bottom-div p {
     max-width: 67%;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* 12-section */
   .section-12-top-part h2 {
-    font-size: 26px;
+    font-size: 40px;
+    line-height: 1.1;
   }
   .section-12-top-part p {
-    font-size: 13px;
+    font-size: 16px;
+    margin-top: 10px;
     max-width: 100%;
   }
   .section-12-bottom-part {
@@ -2433,12 +2519,6 @@ i {
   .section-12-div-2 {
     padding: 10px;
   }
-  .lin-1 h5 {
-    font-size: 12px;
-  }
-  .lin-2 h5 {
-    font-size: 12px;
-  }
   .component-2 {
     margin-left: 25px;
   }
@@ -2446,7 +2526,7 @@ i {
     margin-left: 30px;
   }
   .section-12-div-3 p {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   /* black-template-section */
@@ -2473,8 +2553,8 @@ i {
     font-size: 25px;
   }
   .black-right-part p {
-    max-width: 63%;
-    font-size: 12px;
+    max-width: 90%;
+    font-size: 16px;
   }
 
   /* section-16 */
@@ -2490,13 +2570,13 @@ i {
     max-width: 100%;
   }
   .sec-16-left-side h2 {
-    max-width: 93%;
+    max-width: 98%;
     line-height: 1.2;
     font-size: 40px;
   }
   .sec-16-left-side p {
-    max-width: 86%;
-    font-size: 14px;
+    max-width: 100%;
+    font-size: 16px;
   }
 
   /* section-17 */
@@ -2510,23 +2590,38 @@ i {
   }
   .sec-17-right-side {
     max-width: 100%;
+    margin: 0;
   }
   .sec-17-right-side h2 {
-    max-width: 93%;
+    max-width: 98%;
     line-height: 1.2;
     font-size: 40px;
   }
   .sec-17-right-side p {
-    max-width: 86%;
-    font-size: 14px;
+    max-width: 100%;
+    font-size: 16px;
+  }
+
+  /* sec-18 */
+  .sec-18-root {
+    padding: 0 10px;
+  }
+  .sec-18-top-part h2 {
+    font-size: 40px;
+  }
+  .sec-18-top-part p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    max-width: 100%;
+    margin: 5px 0 28px 0;
   }
 
   /* ui-us-faq-section */
   .ui-ux-heading-part h2 {
-    font-size: 31px;
+    font-size: 40px;
   }
   .ui-ux-heading-part p {
-    font-size: 15px;
+    font-size: 16px;
   }
   .ui-ux-bottom-top i {
     font-size: 35px;
@@ -2542,19 +2637,26 @@ i {
     padding: 20px 10px 0;
   }
   .banner h1 {
-    font-size: 24px;
+    font-size: 38px;
   }
-  .banner span {
+  .banner-section-para {
     font-size: 17px;
     margin: 15px 0 0;
   }
-  .banner p {
-    font-size: 12px;
+  .banner-para {
+    font-size: 16px;
     margin: 8px 0 0;
+    max-width: 100%;
+  }
+  .box-row p {
+    font-size: 16px;
+    margin: 8px 0 0;
+    max-width: 100%;
   }
   .banner button {
     margin: 15px 0 0;
-    padding: 12px 25px;
+    padding: 10px 12px;
+    font-size: 14px;
   }
   .box-row {
     flex-direction: column;
@@ -2564,6 +2666,7 @@ i {
   .box {
     width: 58%;
     margin: 10px 0;
+    padding: 10px;
   }
   .circle img {
     width: 35px;
@@ -2578,6 +2681,7 @@ i {
     text-align: center;
     max-width: unset;
     margin-right: unset;
+    font-size: 18px;
   }
   .carousel-between {
     flex-direction: column;
@@ -2596,11 +2700,12 @@ i {
   }
   .heading-part span {
     line-height: 1.15;
-    font-size: 24px;
+    font-size: 35px;
     margin-bottom: 18px;
   }
   .heading-part p {
-    font-size: 13px;
+    font-size: 16px;
+    max-width: 100%;
   }
   .grid-div-root {
     display: flex;
@@ -2612,11 +2717,11 @@ i {
     text-align: center;
   }
   .left-side img {
-    width: 220px;
-    height: 221px;
+    width: 274px;
+    height: 269px;
   }
   .left-side p {
-    font-size: 13px;
+    font-size: 16px;
     text-align: left;
   }
   .right-side {
@@ -2626,7 +2731,7 @@ i {
     font-size: 24px;
   }
   .right-side p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .right-side button {
     font-size: 12px;
@@ -2640,7 +2745,7 @@ i {
     width: 100%;
   }
   .fifth-section h2 {
-    font-size: 34px;
+    font-size: 35px;
   }
   .tab-section button {
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -2691,7 +2796,7 @@ i {
     max-width: 100%;
   }
   .left-content-part h2 {
-    font-size: 34px;
+    font-size: 35px;
   }
   .right-content-part {
     max-width: 100%;
@@ -2704,7 +2809,7 @@ i {
     font-size: 21px;
   }
   .bottom-section p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* award-section */
@@ -2752,12 +2857,12 @@ i {
     max-width: 100%;
   }
   .crypto-left-part h2 {
-    font-size: 29px;
+    font-size: 35px;
     margin-bottom: 10px;
     line-height: 1.3;
   }
   .crypto-right-part p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* .nine-section-content */
@@ -2771,7 +2876,7 @@ i {
     max-width: 100%;
   }
   .nine-section-right-part {
-    text-align: center;
+    text-align: left;
     max-width: 100%;
     padding: 14px;
   }
@@ -2783,17 +2888,14 @@ i {
   }
   .nine-section-right-part h2 {
     max-width: 100%;
-    font-size: 29px;
+    font-size: 35px;
     text-align: left;
     margin-top: 25px;
   }
   .nine-section-right-part p {
     max-width: 100%;
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
-  }
-  .nine-section-right-part button {
-    text-align: center;
   }
   .column-div {
     max-width: 100%;
@@ -2805,10 +2907,13 @@ i {
     padding: 15px;
   }
   .stack-top-content h2 {
-    font-size: 30px;
+    font-size: 35px;
+    line-height: 1.2;
   }
   .stack-top-content p {
-    font-size: 13px;
+    font-size: 16px;
+    text-align: left;
+    max-width: 100%;
   }
   .stack-bottom-content {
     display: grid;
@@ -2835,11 +2940,13 @@ i {
     border-right: none;
     padding: 10px 1px 10px 39px;
   }
+
+  /* acheivement section */
   .acheivement-top-part h2 {
-    font-size: 30px;
+    font-size: 34px;
   }
   .acheivement-top-part p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .bottom-div {
     flex-direction: column;
@@ -2853,16 +2960,18 @@ i {
   }
   .bottom-div p {
     max-width: 100%;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   /* 12-section */
   .section-12-top-part h2 {
-    font-size: 26px;
+    font-size: 35px;
+    line-height: 1.2;
   }
   .section-12-top-part p {
-    font-size: 13px;
+    font-size: 16px;
     max-width: 100%;
+    margin-top: 10px;
   }
   .section-12-bottom-part {
     flex-direction: column;
@@ -2896,7 +3005,7 @@ i {
     margin-left: 30px;
   }
   .section-12-div-3 p {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   /* black-template-section */
@@ -2923,8 +3032,8 @@ i {
     font-size: 25px;
   }
   .black-right-part p {
-    max-width: 63%;
-    font-size: 12px;
+    max-width: 100%;
+    font-size: 16px;
   }
 
   /* section-16 */
@@ -2942,11 +3051,11 @@ i {
   .sec-16-left-side h2 {
     max-width: 100%;
     line-height: 1.2;
-    font-size: 40px;
+    font-size: 35px;
   }
   .sec-16-left-side p {
-    max-width: 90%;
-    font-size: 14px;
+    max-width: 100%;
+    font-size: 16px;
   }
 
   /* section-17 */
@@ -2960,42 +3069,46 @@ i {
   }
   .sec-17-right-side {
     max-width: 100%;
+    margin: 0;
   }
   .sec-17-right-side h2 {
     max-width: 100%;
     line-height: 1.2;
-    font-size: 40px;
+    font-size: 35px;
   }
   .sec-17-right-side p {
-    max-width: 90%;
-    font-size: 14px;
+    max-width: 100%;
+    font-size: 16px;
   }
   .sec-17-right-side h3 {
-    font-size: 11px;
+    font-size: 17px;
     max-width: 71%;
+  }
+  .sec-17-right-side h4 {
+    max-width: 100%;
+    font-size: 16px;
   }
 
   /* section-18 */
-  .sec-18-top-part p {
-    max-width: 100%;
+  .sec-18-top-part h2 {
+    font-size: 35px;
   }
   .sec-18-top-part p {
     font-family: "Inter", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     max-width: 100%;
     margin: 5px 0 28px 0;
   }
   .sec-18-bottom-part p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* ui-ux-faq-section */
   .ui-ux-heading-part h2 {
-    font-size: 31px;
+    font-size: 35px;
   }
   .ui-ux-heading-part p {
     font-size: 15px;
-
     text-align: left;
   }
   .ui-ux-bottom-part {
@@ -3005,7 +3118,7 @@ i {
     font-size: 35px;
   }
   .ui-ux-bottom-top p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .ui-ux-bottom-down i {
     font-size: 35px;
@@ -3013,11 +3126,80 @@ i {
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
+  /* banner-section */
+  .banner {
+    padding: 10px 10px;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .box {
+    padding: 5px;
+  }
+  .box-row p {
+    font-size: 15px;
+  }
+
+  /* thord-section */
+  .heading-part span {
+    line-height: 1.15;
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+
+  /* fisth-sectin */
+  .xyz {
+    padding: 0;
+  }
+
+  .right-content-part {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  /* award-section */
+  .award-section-container h2 {
+    max-width: 100%;
+    font-size: 25px;
+    line-height: 1.4;
+  }
+
+  /* crypto-section */
+  .crypto-sec-content {
+    flex-direction: column;
+    padding: 0;
+  }
+  .crypto-left-part h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+
   .stack-bottom-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 11px;
     justify-items: center;
+  }
+  .tech-stack-content {
+    padding: 10px;
+    padding: 0;
+  }
+  .stack-top-content h2 {
+    font-size: 25px;
+    line-height: 1.2;
+    text-align: left;
+    max-width: 100%;
+  }
+
+  /* acgeivement-section */
+  .acheivement-content {
+    /* padding: 15px; */
+    padding: 5px;
+  }
+  .acheivement-top-part h2 {
+    font-size: 25px;
+    max-width: 100%;
   }
 
   /* eight-section */
@@ -3045,9 +3227,29 @@ i {
     width: 55px;
   }
 
+  .sec-17-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .sec-17-right-side h2 {
+    max-width: 100%;
+    line-height: 1.2;
+    font-size: 25px;
+  }
+
   /* section-18 */
   .sec-18-bottom-part-div-2 h3 {
     font-size: 15px;
+  }
+
+  .ui-ux-heading-part h2 {
+    font-size: 25px;
+    text-align: left;
+  }
+  .ui-ux-faq-content {
+    padding: 0;
   }
 }
 
